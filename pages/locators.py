@@ -14,6 +14,7 @@ class LoginPageLocators():
     AUTH_USERNAME = (By.ID, "id_registration-email")
     AUTH_PASS = (By.ID, "id_registration-password1")
     AUTH_PASS_DOUBLE = (By.ID, "id_registration-password2")
+    AUTH_BUTTON = (By.NAME, "registration_submit")
 
 
 class ProductPageLocators():
@@ -28,6 +29,7 @@ class ProductPageLocators():
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-group>.btn:nth-child(1)")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 
 class BasketPageLocators():
